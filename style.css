@@ -36,7 +36,7 @@ body{
 }
 
 .top span:nth-child(1){
-background-color: crimson;
+background-color: rgba(55, 102, 232);
 position: absolute;
 border-radius: 100px;
 transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0) translate(-45%,-50%);
@@ -47,7 +47,7 @@ top:50%;
 }
 
 .top span:nth-child(2){
-    background-color: crimson;
+    background-color: rgba(55, 102, 232);
     position: absolute;
     border-radius: 100px;
     transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0) translate(-50%,-50%);
@@ -58,7 +58,7 @@ top:50%;
     }
 
 .top span:nth-child(3){
-        background-color: crimson;
+    background-color: rgba(55, 102, 232);
         position: absolute;
     border-radius: 100px;
     transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0) translate(-55%,-50%);
@@ -88,7 +88,7 @@ top:50%;
         background-color: rgb(0, 0, 0);
         filter: blur(5px);
         height: 31px;
-        transform: rotate(8deg);
+        transform:skewY(5deg);
         bottom: -4px;
         z-index: -1;
         left: 29px;
@@ -105,7 +105,7 @@ top:50%;
     top:93px;
     box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
     padding: 40px 91px;
-    background-image:linear-gradient(rgba(55, 102, 232, 0.8),rgba(220, 20, 60,0.8)), url("https://images.pexels.com/photos/5439136/pexels-photo-5439136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image:linear-gradient(to top,rgba(55, 102, 232, 0.8),rgba(220, 20, 60,0.8)), url("https://images.pexels.com/photos/5439136/pexels-photo-5439136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
