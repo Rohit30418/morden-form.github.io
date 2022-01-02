@@ -73,7 +73,7 @@ top:50%;
     position:absolute;
     top:60px;
     left: 60px;
-    background-color: #E5E5E5;
+    background-color: rgb(233, 224, 206);
     padding: 5px;
 }
 
@@ -132,7 +132,7 @@ top:50%;
     width: 100%;
     max-width: 370px;
     margin: auto;
-    color: rgb(0, 0, 0);
+    color: rgb(233, 224, 206) ;
     text-align: center;
     font-size: 26px;
     line-height: 30px;
@@ -146,6 +146,7 @@ top:50%;
     max-width: 370px;
     font-size: 14px;
     text-align: center;
+    color: rgb(233, 224, 206) ;
 }
 
 .formcontainer p{
@@ -153,7 +154,7 @@ top:50%;
     max-width:378px;
     margin: auto;
     text-align: center;
-    color: rgb(42, 42, 42);
+    color: rgb(233, 224, 206) ;
 }
 
 form label{
@@ -171,7 +172,7 @@ margin-bottom: 36px;
 width: 100%;
 padding: 10px 12px 8px 12px;
 border-radius: 6px;
-border: 1px solid rgb(233, 224, 206);
+border: 1px solid white;
 background-color: rgb(233, 224, 206);
 }
 
@@ -181,10 +182,10 @@ select option{
 
 
 form button{
-    background-color: #e40b0bcc;
+    background-color: rgba(55, 102, 232);
     border-radius: 5px;
     margin: 24px 0px;
-    color: white;
+    color: rgb(233, 224, 206);
     font-size: 14px;
     margin-bottom: 36px;
     width: 100%;
@@ -216,7 +217,7 @@ form button::before{
 }
 
 .company span{
-    background-color:#E5E5E5 ;
+    background-color:rgb(233, 224, 206) ;
     padding: 4px 8px;
     border-radius: 5px;
     cursor: pointer;
@@ -224,22 +225,22 @@ form button::before{
 }
 
 .company span:hover{
-    background-color: #e40b0bcc;
-    color: #E5E5E5 ;
+    background-color: rgba(55, 102, 232);
+    color:rgb(233, 224, 206) ;
 }
 
 .companylable{
     margin-bottom: 8px;
-    color: #ffffff;
+    font-size: 14px;
 }
 
    .rect{
     position: absolute;
-    width: 1752.96px;
+    width: 3000px;
     height: 392px;
     background-image:linear-gradient(to right,rgba(2, 0, 0, 0.8),rgb(233, 224, 206,0.8));
-    top:50%;
-    left:-117.75px;
+    top:150px;
+    left:-200px;
     transform: rotate(-30deg) translateY(-50%);
 }
 
@@ -270,10 +271,17 @@ text-align: center;
 transform: translateX(-50%);
 height: 19px;
 left: 50%;
-top: 825px;
-color:#000000 ;
+top: 850px;
+color:rgba(55, 102, 232) ;
+
 }
 
+
+@media(min-width:1600px){
+    .rect{
+        top:502px;
+    }
+}
 
 @media(max-width:1020px){
     .logo{
@@ -282,6 +290,12 @@ color:#000000 ;
     }
     .formcontainer{
        top:130px;
+    }
+}
+
+@media(max-width:768px){
+    .rect{
+        top:10px;
     }
 }
 
@@ -297,10 +311,6 @@ color:#000000 ;
 
     .bottom{
         top: 850px;
-    }
-
-    .rect{
-        top:30%
     }
 }
 
