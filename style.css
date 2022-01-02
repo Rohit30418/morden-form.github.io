@@ -15,7 +15,7 @@ html{
 }
 
 body{
-    background-color: crimson;
+    background-color: rgb(233, 224, 206);
     min-height: 100vh;
     position:relative;
     overflow-x: hidden;
@@ -105,7 +105,7 @@ top:50%;
     top:93px;
     box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
     padding: 40px 91px;
-    background-image:linear-gradient(to top,rgba(55, 102, 232, 0.8),rgba(220, 20, 60,0.8)), url("https://images.pexels.com/photos/5439136/pexels-photo-5439136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image:linear-gradient(to top,rgba(2, 0, 0, 0.8),rgb(233, 224, 206,0.8)), url("https://images.pexels.com/photos/5439136/pexels-photo-5439136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -130,9 +130,9 @@ top:50%;
 
 .formcontainer h1{
     width: 100%;
-    max-width: 378px;
+    max-width: 370px;
     margin: auto;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 26px;
     line-height: 30px;
@@ -141,19 +141,29 @@ top:50%;
     font-weight:bold;
 }
 
+.tagline{
+    width: 100%;
+    max-width: 370px;
+    font-size: 14px;
+    text-align: center;
+}
+
 .formcontainer p{
     width: 100%;
     max-width:378px;
     margin: auto;
     text-align: center;
-    color: rgb(219, 219, 219);
-    margin: 16px 0px;
+    color: rgb(42, 42, 42);
 }
 
 form label{
     display: block;
     font-size: 14px;
     padding-bottom: 8px;
+}
+
+form{
+    margin-top: 16px;
 }
 
 form input,select{
@@ -170,7 +180,7 @@ select option{
 
 
 form button{
-    background-color: rgb(220, 20, 60);
+    background-color: #e40b0bcc;
     border-radius: 5px;
     margin: 24px 0px;
     color: white;
@@ -195,7 +205,7 @@ form button::before{
     top: 50%;
     left: -2px;
     transform: translateY(-50%);
-    z-index: -1;
+    z-index:-1;
 }
 .company{
     display: flex;
@@ -213,7 +223,7 @@ form button::before{
 }
 
 .company span:hover{
-    background-color: crimson;
+    background-color: #e40b0bcc;
     color: #E5E5E5 ;
 }
 
@@ -226,7 +236,7 @@ form button::before{
     position: absolute;
     width: 1752.96px;
     height: 392px;
-    background-color: #F0F0F0;
+    background-image:linear-gradient(to right,rgba(2, 0, 0, 0.8),rgb(233, 224, 206,0.8));
     top:50%;
     left:-117.75px;
     transform: rotate(-30deg) translateY(-50%);
@@ -235,21 +245,21 @@ form button::before{
 .rect::before{
     content: "";
     position: absolute;
-    background-color: rgb(55, 102, 232);
-    width: 50%;
+    background-image:linear-gradient(to left,rgba(2, 0, 0, 0.8),rgb(233, 224, 206,0.8));
+    width: 100%;
     height: 10px;
-    left: -2px;
+    left: -20px;
     top:-9px;
 }
 
 .rect::after{
     content: "";
     position: absolute;
-    background-color: rgb(55, 102, 232);
-    width: 50%;
+    background-image:linear-gradient(to left,rgba(2, 0, 0, 0.8),rgb(233, 224, 206,0.8));
+    width: 100%;
     height: 10px;
     bottom: -9px;
-    right: 0px;
+    left: -20px;
 }
 
 .bottom{
@@ -260,7 +270,7 @@ transform: translateX(-50%);
 height: 19px;
 left: 50%;
 top: 825px;
-color:#E5E5E5 ;
+color:#000000 ;
 }
 
 
@@ -286,6 +296,10 @@ color:#E5E5E5 ;
 
     .bottom{
         top: 850px;
+    }
+
+    .rect{
+        top:30%
     }
 }
 
